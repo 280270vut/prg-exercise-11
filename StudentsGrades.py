@@ -58,3 +58,9 @@ if __name__ == "__main__":
 
     print(results.find(100))
     print(results.get_sorted())
+
+    from sorting import random_numbers
+
+    random_results = StudentsGrades(random_numbers(30, 0, 100))
+    print(random_results.count())
+    print(random_results.get_sorted())
